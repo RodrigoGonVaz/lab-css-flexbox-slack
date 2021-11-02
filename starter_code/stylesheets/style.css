@@ -5,3 +5,227 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+html {
+    display: flex;
+}
+
+body {
+    background-color: #F4F3F4;
+    margin: 0;
+    }
+
+nav {
+    width: 1000px;
+    height: 230px;
+    border-bottom: 1px solid #d0d1d3;
+    }
+    
+.menu-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0%;
+
+    }
+
+.logo {
+        display: flex;
+        height: 60%;
+        justify-content: space-between;
+        order: 1;
+        padding-right: 530px;
+     }
+
+.nav-list {
+        flex-direction: row;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around; 
+        display: none;    
+        color: #5b5e6d;  
+    }
+
+.menu  {
+        height: 45%;
+        padding-right: 50px;
+        display: flex;
+        order: 2;
+    
+    }
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px #5b5e6d;
+    padding: 5px 50px;
+    width: 1000px;
+    border-bottom: 1px solid #d0d1d3;
+    }
+.textEmail{
+    border-radius: 3%;
+    color: #5b5e6d;
+    padding: 50px 40px 50px;
+    margin-left: 5%;
+    margin-right: 9%;
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.button {
+    border-radius: 2%;
+    background-color: rgb(63, 74, 171);
+    color: white;
+    padding: 50px 0px;
+    margin-left: 5%;
+    margin-right: 9%;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    }
+.button + p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signIn {
+   color: rgb(63, 74, 171);
+   padding-left: 25px;
+}    
+header > img {
+    order: 5;
+    
+}
+header > h1 {
+ flex-wrap: wrap;
+ font-weight: bolder;
+ color: #2C303F;
+ font-size: 70px;
+ padding-right: 600px;
+
+}
+
+.discoverDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px #5b5e6d;
+    padding: 5px 50px;
+    width: 1000px;
+    }
+header > p {
+    color: #5b5e6d;
+    font-size: 40px;
+    line-height: 60px;
+    padding-right: 85px;
+    text-align: justify;
+
+}
+ 
+main {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h2 {
+    font-weight: bolder;
+    color: #2C303F;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+   
+}
+
+.discoverDiv > p {
+    color: #5b5e6d;
+    font-size: 40px;
+    line-height: 60px;
+    padding-right: 110px;
+    padding-left: 110px;
+    text-align: center;
+}
+
+.buttonDiscover {
+    border-radius: 2%;
+    border: 3px solid  rgb(63, 74, 171);
+    color:  rgb(63, 74, 171);
+    background-color: white;
+    padding: 55px 280px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    }
+
+.aly {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 80px 0px;
+    border-bottom: 1px solid #d0d1d3;
+    }
+.divTry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px #5b5e6d;
+    padding: 50px 50px;
+    width: 1000px;
+    border-bottom: 1px solid #d0d1d3;
+}
+.divTry > p {
+        color: #5b5e6d;
+        font-size: 40px;
+        line-height: 60px;
+        padding-right: 110px;
+        padding-left: 110px;
+        text-align: center;
+        padding-top: 0px;
+    }
+.divTryP {
+        color: #5b5e6d;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: bolder;
+        padding-right: 110px;
+        padding-left: 110px;
+        text-align: center;
+    }    
+
+.buttonStart {
+    border-radius: 2%;
+    background-color: rgb(63, 74, 171);
+    color: white;
+    padding: 50px 0px;
+    margin-left: 5%;
+    margin-right: 9%;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+
+     }
+footer {
+    display: flex;
+
+}
+.footerUl {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color: #5b5e6d;;
+}
